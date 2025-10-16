@@ -3,18 +3,18 @@ module github.com/celestiaorg/celestia-app/v6
 go 1.24.6
 
 require (
-	cosmossdk.io/api v0.7.6
+	cosmossdk.io/api v0.9.2
 	cosmossdk.io/client/v2 v2.0.0-beta.8
-	cosmossdk.io/core v0.11.1
+	cosmossdk.io/core v0.11.3
 	cosmossdk.io/errors v1.0.2
 	cosmossdk.io/log v1.6.0
 	cosmossdk.io/math v1.5.3
 	cosmossdk.io/store v1.1.2
 	cosmossdk.io/tools/confix v0.1.2
 	cosmossdk.io/x/circuit v0.1.1
-	cosmossdk.io/x/evidence v0.1.1
+	cosmossdk.io/x/evidence v0.2.0
 	cosmossdk.io/x/feegrant v0.1.1
-	cosmossdk.io/x/tx v0.13.8
+	cosmossdk.io/x/tx v0.14.0
 	cosmossdk.io/x/upgrade v0.1.4
 	github.com/aws/aws-sdk-go-v2 v1.39.2
 	github.com/aws/aws-sdk-go-v2/config v1.31.12
@@ -30,7 +30,7 @@ require (
 	github.com/cometbft/cometbft-db v1.0.4
 	github.com/cosmos/cosmos-db v1.1.1
 	github.com/cosmos/cosmos-proto v1.0.0-beta.5
-	github.com/cosmos/cosmos-sdk v0.50.13
+	github.com/cosmos/cosmos-sdk v0.53.0
 	github.com/cosmos/go-bip39 v1.0.0
 	github.com/cosmos/gogoproto v1.7.0
 	github.com/cosmos/ibc-apps/middleware/packet-forward-middleware/v8 v8.2.0
@@ -54,7 +54,7 @@ require (
 	golang.org/x/sync v0.17.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20250804133106-a7a43d27e69b
 	google.golang.org/grpc v1.76.0
-	google.golang.org/protobuf v1.36.9
+	google.golang.org/protobuf v1.36.10
 	gopkg.in/yaml.v2 v2.4.0
 )
 
@@ -67,13 +67,14 @@ require (
 	cloud.google.com/go/iam v1.5.2 // indirect
 	cloud.google.com/go/monitoring v1.24.2 // indirect
 	cloud.google.com/go/storage v1.50.0 // indirect
-	cosmossdk.io/collections v0.4.0 // indirect
-	cosmossdk.io/depinject v1.1.0 // indirect
+	cosmossdk.io/collections v1.2.0 // indirect
+	cosmossdk.io/depinject v1.2.0 // indirect
+	cosmossdk.io/schema v1.1.0 // indirect
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4 // indirect
 	github.com/99designs/keyring v1.2.2 // indirect
 	github.com/DataDog/datadog-go v4.8.3+incompatible // indirect
-	github.com/DataDog/zstd v1.5.6 // indirect
+	github.com/DataDog/zstd v1.5.7 // indirect
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp v1.29.0 // indirect
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/exporter/metric v0.50.0 // indirect
 	github.com/GoogleCloudPlatform/opentelemetry-operations-go/internal/resourcemapping v0.50.0 // indirect
@@ -97,7 +98,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d // indirect
 	github.com/bgentry/speakeasy v0.2.0 // indirect
-	github.com/bits-and-blooms/bitset v1.17.0 // indirect
+	github.com/bits-and-blooms/bitset v1.22.0 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.5 // indirect
 	github.com/bufbuild/protocompile v0.14.1 // indirect
 	github.com/bytedance/gopkg v0.1.3 // indirect
@@ -113,8 +114,8 @@ require (
 	github.com/cockroachdb/errors v1.11.3 // indirect
 	github.com/cockroachdb/fifo v0.0.0-20240816210425-c5d0cb0b6fc0 // indirect
 	github.com/cockroachdb/logtags v0.0.0-20241215232642-bb51bb14a506 // indirect
-	github.com/cockroachdb/pebble v1.1.4 // indirect
-	github.com/cockroachdb/redact v1.1.5 // indirect
+	github.com/cockroachdb/pebble v1.1.5 // indirect
+	github.com/cockroachdb/redact v1.1.6 // indirect
 	github.com/cockroachdb/tokenbucket v0.0.0-20230807174530-cc333fc44b06 // indirect
 	github.com/containerd/continuity v0.4.2 // indirect
 	github.com/cosmos/btcutil v1.0.5 // indirect
