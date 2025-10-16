@@ -28,7 +28,7 @@ require (
 	github.com/celestiaorg/rsmt2d v0.15.1
 	github.com/cometbft/cometbft v0.38.17
 	github.com/cometbft/cometbft-db v1.0.4
-	github.com/cosmos/cosmos-db v1.1.1
+	github.com/cosmos/cosmos-db v1.1.3
 	github.com/cosmos/cosmos-proto v1.0.0-beta.5
 	github.com/cosmos/cosmos-sdk v0.50.13
 	github.com/cosmos/go-bip39 v1.0.0
@@ -54,7 +54,7 @@ require (
 	golang.org/x/sync v0.17.0
 	google.golang.org/genproto/googleapis/api v0.0.0-20250804133106-a7a43d27e69b
 	google.golang.org/grpc v1.76.0
-	google.golang.org/protobuf v1.36.9
+	google.golang.org/protobuf v1.36.10
 	gopkg.in/yaml.v2 v2.4.0
 )
 
@@ -113,7 +113,7 @@ require (
 	github.com/cockroachdb/errors v1.11.3 // indirect
 	github.com/cockroachdb/fifo v0.0.0-20240816210425-c5d0cb0b6fc0 // indirect
 	github.com/cockroachdb/logtags v0.0.0-20241215232642-bb51bb14a506 // indirect
-	github.com/cockroachdb/pebble v1.1.4 // indirect
+	github.com/cockroachdb/pebble v1.1.5 // indirect
 	github.com/cockroachdb/redact v1.1.5 // indirect
 	github.com/cockroachdb/tokenbucket v0.0.0-20230807174530-cc333fc44b06 // indirect
 	github.com/containerd/continuity v0.4.2 // indirect
